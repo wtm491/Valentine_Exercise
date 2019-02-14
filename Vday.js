@@ -37,16 +37,19 @@ function setHTMLValentinesMessage(valentine) {
 function processValentines() {
   for(let i = 0; arrayNames.length; i++){
     console.log(arrayNames[i])
+    setHTMLValentinesName(arrayNames[i]);
+    setHTMLValentinesMessage(arrayNames[i]);
+
   }
 
 }
 
 
-setHTMLValentinesName(Rudy);
-setHTMLValentinesMessage(Rudy);
-
-setHTMLValentinesName(Pomengranate);
-setHTMLValentinesMessage(Pomengranate);
-
-setHTMLValentinesName(Schmitty);
-setHTMLValentinesMessage(Schmitty);
+// setHTMLValentinesName(Rudy);
+// setHTMLValentinesMessage(Rudy);
+//
+// setHTMLValentinesName(Pomengranate);
+// setHTMLValentinesMessage(Pomengranate);
+//
+// setHTMLValentinesName(Schmitty);
+// setHTMLValentinesMessage(Schmitty);
