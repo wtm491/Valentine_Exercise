@@ -1,26 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Javascript Function Exercises</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Valentine's Day</title>
 </head>
 <body>
-    <main class="container">
-        <section id="valentine-1--section" class="valentine">
-            <h1 id="valentine-1--name" class="title"></h1>
-            <p id="valentine-1--message" class="message"></p>
-        </section>
-        <section id="valentine-2--section" class="valentine">
-            <h1 id="valentine-2--name" class="name"></h1>
-            <p id="valentine-2--message" class="message"></p>
-        </section>
-        <section id="valentine-3--section" class="valentine">
-            <h1 id="valentine-3--name" class="name"></h1>
-            <p id="valentine-3--message" class="message"></p>
-        </section>
-    </main>
-    <script src="Vday.js"></script>
+  <main>
+      <div id="landing">
+          <div id="landing-text">
+             <div id="landing-text-inner">
+                  <h1>Happy Valentine's days</h1>
+                 <h2> for my lovely cats</h2>
+
+
+             </div>
+          </div>
+          <div id="landing-image"></div>
+      </div>
+      <div id="images">
+          <div id="header">
+          </div>
+          <img src= "pom.jpg" alt="">
+          <div class="caption">
+            <a><button href="#images" class="btn" id="valentine-1--message" onclick="setHTMLValentinesMessage(Rudy)">
+                 Rudy</button></a>
+
+          </div>
+          <img src="rudy.jpg" alt="">
+          <div class="caption">
+            <a><button href="#images" class="btn" id="valentine-2--message" onclick="setHTMLValentinesMessage(Pomengranate)">
+                 Pomengranate</button></a>
+
+          </div>
+          <img src="schmitty.jpg" alt="">
+          <div class="caption">
+            <a><button href="#images" class="btn" id="valentine-3--message" onclick="setHTMLValentinesMessage(Schmitty)">
+                 Schmitty</button></a>
+
+          </div>
+      </div>
+  </main>
+  <footer>
+      <h3>Get in Touch if you want Cat Valentine's cards</h3>
+      <p>Email or call us to set up a consult</p>
+      <p>Email: <strong>Dave-Will-Humberto.test</strong></p>
+      <p>Phone: <stromg>616-675-6534</stromg></p>
+  </footer>
+  <script src="main.js"></script>
 </body>
 </html>
