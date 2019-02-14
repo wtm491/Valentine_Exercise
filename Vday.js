@@ -44,12 +44,4 @@ function processValentines() {
 
 }
 
-
-// setHTMLValentinesName(Rudy);
-// setHTMLValentinesMessage(Rudy);
-//
-// setHTMLValentinesName(Pomengranate);
-// setHTMLValentinesMessage(Pomengranate);
-//
-// setHTMLValentinesName(Schmitty);
-// setHTMLValentinesMessage(Schmitty);
+processValentines();
